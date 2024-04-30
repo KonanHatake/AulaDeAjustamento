@@ -1,0 +1,61 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    margin: auto;
+    max-width: 1200px;
+    border: 1px solid black;
+
+}
+
+header, article, section, footer, .main
+{
+    border: 1px solid black;
+    background-color: #575794;
+    color: #ffffff;
+    text-align: center;
+    margin: 1rem;
+}
+
+header
+{
+    min-height: 100px;
+}
+
+div
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+article
+{
+    width: 570px;
+    min-height: 300px;
+}
+
+.article2
+{
+    display: block;
+}
+
+section
+{
+    min-width: 570px;
+    height: 300px;
+}
+
+footer
+{
+    min-height: 200px;
+}   
+
+.main
+{
+    height: 200px;
+}
